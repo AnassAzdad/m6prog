@@ -9,7 +9,8 @@
     <script defer type="text/javascript" src="assets/js/app.js"></script>
 </head>
 <body>
-    <form action="/nawOpslaan.php">
+    <form action="/nawOpslaan.php" method="POST">
+
         <label for="naam">Naam:</label><br>
         <input type="text" id="naam" name="naam"><br><br>
         
@@ -24,8 +25,10 @@
         
         <label for="email">Emailadres:</label><br>
         <input type="email" id="email" name="email"><br><br>
-        method="POST"
+       
             <input type="submit" value="Submit">
         </form>
+
+       
 </body>
 </html>
